@@ -8,7 +8,7 @@ require_once "UploadImagem.class.php";
 
 //EXEMPLO
 
-var_dump(CPF::validate('022.823.470.05')); //RETORNA UM TRUE OU FALSE
+var_dump(CPF::validate('999.999.999.99')); //RETORNA UM TRUE OU FALSE
 
-var_dump(CPF::getUfRegister('022.823.470.05')); //RETORNA O ESTADO A ONDE FOI REGISTRADO O CPF
+var_dump(CPF::getUfRegister('999.999.999.99')); //RETORNA O ESTADO A ONDE FOI REGISTRADO O CPF
 ?>
