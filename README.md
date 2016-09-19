@@ -8,7 +8,7 @@ Classe para trabalhar com CPF
 //EXEMPLO
 require_once "../vendor/autoload.php";
 
-use Proner\Cpf\Cpf;
+use Proner\Cpf;
 
 var_dump(CPF::validate('999.999.999.99')); //RETORNA UM TRUE OU FALSE
 
