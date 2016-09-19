@@ -4,7 +4,7 @@ Classe para trabalhar com CPF
 ## Exemplo
 ```php
 <?php
-require_once "UploadImagem.class.php";
+require_once "../vendor/autoload.php";
 
 //EXEMPLO
 

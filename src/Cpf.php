@@ -1,5 +1,7 @@
 <?php
 
+namespace Proner\Cpf;
+
 class Cpf
 {
     private static function setCpf($cpf)

@@ -6,5 +6,10 @@
             "name": "Diogo Bemfica",
             "email": "diogo.fragabemfica@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Proner\\Cpf\\": "src/"
+        }
+    }
 }
