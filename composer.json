@@ -1,0 +1,10 @@
+{
+    "name": "proner/cpf",
+    "description": "Classe para trabalhar com CPF",
+    "authors": [
+        {
+            "name": "Diogo Bemfica",
+            "email": "diogo.fragabemfica@gmail.com"
+        }
+    ]
+}
