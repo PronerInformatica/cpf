@@ -4,9 +4,11 @@ Classe para trabalhar com CPF
 ## Exemplo
 ```php
 <?php
-require_once "../vendor/autoload.php";
 
 //EXEMPLO
+require_once "../vendor/autoload.php";
+
+use Proner\Cpf\Cpf;
 
 var_dump(CPF::validate('999.999.999.99')); //RETORNA UM TRUE OU FALSE
 
