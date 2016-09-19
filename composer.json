@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Proner\\Cpf\\": "src/"
+            "Proner\\": "src/"
         }
     }
 }

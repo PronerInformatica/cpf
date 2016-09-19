@@ -1,6 +1,6 @@
 <?php
 
-namespace Proner\Cpf;
+namespace Proner;
 
 class Cpf
 {
