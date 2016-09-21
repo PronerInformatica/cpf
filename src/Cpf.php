@@ -7,8 +7,7 @@ class Cpf
     private static function setCpf($cpf)
     {
         if( !empty($cpf) ){
-            preg_match_all('!\d+!', $cpf, $aux);
-            $cpf = implode("",$aux[0]);
+            $cpf = preg_replace('/[^0-9]/', '', (string) $cpf);
             return $cpf;
         }
     }
